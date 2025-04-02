@@ -1,7 +1,9 @@
 name: dart_data_type_parser
-description: "A new Flutter package project."
-version: 0.0.1
-homepage:
+description: "A Flutter package providing useful extensions for double, int, and String types to enhance data formatting and manipulation."
+version: 0.0.2
+homepage: https://github.com/GenieCoderSrc/dart_data_type_parser
+repository: https://github.com/GenieCoderSrc/dart_data_type_parser
+issue_tracker: https://github.com/GenieCoderSrc/dart_data_type_parser/issues
 
 environment:
   sdk: ^3.6.1
@@ -10,6 +12,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  fluttertoast: ^8.2.10
 
 dev_dependencies:
   flutter_test:
@@ -21,6 +24,16 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  plugin:
+    platforms:
+      android:
+      ios:
+      web:
+      linux:
+      macos:
+      windows:
+example:
+  path: example
 
   # To add assets to your package, add an assets section, like this:
   # assets:
