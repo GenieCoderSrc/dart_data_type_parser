@@ -1,22 +1,33 @@
 import 'package:dart_data_type_parser/dart_data_type_parser.dart';
-import 'package:flutter/cupertino.dart';
 
 void main() {
   // Double Extensions
-  double? value = 123.456;
-  debugPrint('Formatted Double: ${value.toFormattedString(fractionDigits: 2)}'); // Output: "123.46"
+  double? value1 = 123.456;
+  print("Formatted Double (2 decimal places): ${value1.toFormattedString()}"); // Outputs: 123.46
+
+  double? value2 = 123;
+  print("Formatted Double (whole number): ${value2.toFormattedString()}"); // Outputs: 123
+
+  double? value3 = null;
+  print("Formatted Double (null value): ${value3.toFormattedString()}"); // Outputs: 0
 
   // Int Extensions
   int number = 42;
-  debugPrint('Int to String: ${number.toStringExt()}'); // Output: "42"
+  print("Integer to String: ${number.toStringExt()}"); // Outputs: 42
 
   // String Extensions
-  String amount = "123";
-  debugPrint('String to Int: ${amount.toInt()}'); // Output: 123
+  String text1 = "hello_world";
+  print("String to Snake Case: ${text1.toSnakeCase()}"); // Outputs: hello_world
 
-  String text = "helloWorld";
-  debugPrint('Title Case: ${text.toTitleCase()}'); // Output: "Hello World"
+  String text2 = "123.45";
+  print("String to Double: ${text2.toDouble()}"); // Outputs: 123.45
 
-  debugPrint('Plural of child: ${"child".toPluralCase()}'); // Output: "Children"
-  debugPrint('Snake Case: ${"helloWorld".toSnakeCase()}'); // Output: "hello_world"
+  String text3 = "child";
+  print("String to Plural Case: ${text3.toPluralCase()}"); // Outputs: children
+
+  String text4 = "API";
+  print("String to Title Case: ${text4.toTitleCase()}"); // Outputs: API
+
+  String text5 = "helloWorld";
+  print("String to Title Case (camelCase): ${text5.toTitleCase()}"); // Outputs: Hello World
 }
