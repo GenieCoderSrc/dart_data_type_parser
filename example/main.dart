@@ -3,13 +3,16 @@ import 'package:dart_data_type_parser/dart_data_type_parser.dart';
 void main() {
   // Double Extensions
   double? value1 = 123.456;
-  print("Formatted Double (2 decimal places): ${value1.toFormattedString()}"); // Outputs: 123.46
+  print(
+      "Formatted Double (2 decimal places): ${value1.toFormattedString()}"); // Outputs: 123.46
 
   double? value2 = 123;
-  print("Formatted Double (whole number): ${value2.toFormattedString()}"); // Outputs: 123
+  print(
+      "Formatted Double (whole number): ${value2.toFormattedString()}"); // Outputs: 123
 
   double? value3 = null;
-  print("Formatted Double (null value): ${value3.toFormattedString()}"); // Outputs: 0
+  print(
+      "Formatted Double (null value): ${value3.toFormattedString()}"); // Outputs: 0
 
   // Int Extensions
   int number = 42;
@@ -29,5 +32,6 @@ void main() {
   print("String to Title Case: ${text4.toTitleCase()}"); // Outputs: API
 
   String text5 = "helloWorld";
-  print("String to Title Case (camelCase): ${text5.toTitleCase()}"); // Outputs: Hello World
+  print(
+      "String to Title Case (camelCase): ${text5.toTitleCase()}"); // Outputs: Hello World
 }
