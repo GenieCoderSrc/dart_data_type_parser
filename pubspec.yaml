@@ -6,7 +6,7 @@ repository: https://github.com/GenieCoderSrc/dart_data_type_parser
 issue_tracker: https://github.com/GenieCoderSrc/dart_data_type_parser/issues
 
 environment:
-  sdk: ^3.6.1
+  sdk: ^3.8.1
   flutter: ">=1.17.0"
 
 dependencies:

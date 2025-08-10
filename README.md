@@ -19,7 +19,7 @@ Add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  dart_data_type_parser: ^1.0.0
+  dart_data_type_parser: latest_version 
 ```
 
 
