@@ -1,24 +1,23 @@
 name: dart_data_type_parser
 description: "A Dart package that extends built-in data types like double, int, and String with useful methods. It provides functionality for formatting numbers, converting strings to numbers, handling pluralization (including irregular plurals), and converting strings to different formats like title case and snake case."
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/GenieCoderSrc/dart_data_type_parser
 repository: https://github.com/GenieCoderSrc/dart_data_type_parser
 issue_tracker: https://github.com/GenieCoderSrc/dart_data_type_parser/issues
 
 environment:
-  sdk: ^3.8.1
-  flutter: ">=1.17.0"
+  sdk: ^3.9.0
+  flutter: ">=3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  fluttertoast: ^8.2.12
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
+  
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
